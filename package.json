@@ -6,14 +6,17 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "README.md",
+    "package.json",
+    "package-lock.json",
+    "tsconfig.json"
   ],
   "engines": {
     "node": ">=18.17.0"
   },
   "scripts": {
     "build": "npm install && node_modules/.bin/tsc",
-    "prepack": "npm run build",
     "test": "npm ls",
     "notusable-command": "npm run build && npm version patch && npm publish"
   },
