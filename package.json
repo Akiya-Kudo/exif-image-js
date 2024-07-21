@@ -17,14 +17,10 @@
   },
   "scripts": {
     "build": "npm install && node_modules/.bin/tsc",
-    "test": "npm ls",
-    "notusable-command": "npm run build && npm version patch && npm publish"
+    "test": "npm ls"
   },
   "author": "akidoki",
   "license": "MIT",
-  "dependencies": {
-    "dotenv": "^16.4.5"
-  },
   "devDependencies": {
     "typescript": "^5.5.3"
   }
