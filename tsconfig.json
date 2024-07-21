@@ -19,5 +19,4 @@
     "allowJs": true
   },
   "include": ["src"], // ビルド対象設定
-  // "exclude": ["src/**/*.test.ts"] // ビルド対象外設定
 }
