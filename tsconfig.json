@@ -16,7 +16,9 @@
     "strictNullChecks": true,
     "strictFunctionTypes": true,
     "skipLibCheck": true,
-    "allowJs": true
+    "allowJs": true,
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
   },
   "include": ["src"], // ビルド対象設定
 }

@@ -1,6 +1,6 @@
 {
   "name": "exif-image-js",
-  "version": "0.3.3",
+  "version": "0.4.0",
   "repository": "Akiya-Kudo/exif-image-js",
   "type": "module",
   "main": "./dist/index.js",
