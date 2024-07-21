@@ -18,9 +18,9 @@
   "scripts": {
     "build": "npm install && node_modules/.bin/tsc",
     "test": "npm ls",
-    "patch": "npm version patch && git add . && git commit -m 'version patch' && git push",
-    "minor": "npm version minor && git add . && git commit -m 'version minor' && git push",
-    "major": "npm version major && git add . && git commit -m 'version major' && git push"
+    "patch": "npm version patch && git add . && git commit -m 'version patch'",
+    "minor": "npm version minor && git add . && git commit -m 'version minor'",
+    "major": "npm version major && git add . && git commit -m 'version major'"
   },
   "author": "akidoki",
   "license": "MIT",
