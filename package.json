@@ -12,11 +12,17 @@
     "node": ">=18.17.0"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "npm install && node_modules/.bin/tsc",
     "prepack": "npm run build",
     "test": "npm ls",
     "notusable-command": "npm run build && npm version patch && npm publish"
   },
   "author": "akidoki",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  }
 }
