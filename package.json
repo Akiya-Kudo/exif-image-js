@@ -1,6 +1,6 @@
 {
   "name": "exif-image-js",
-  "version": "0.1.3",
+  "version": "0.3.3",
   "repository": "Akiya-Kudo/exif-image-js",
   "type": "module",
   "main": "./dist/index.js",
@@ -18,13 +18,12 @@
   "scripts": {
     "build": "npm install && node_modules/.bin/tsc",
     "test": "npm ls",
-    "notusable-command": "npm run build && npm version patch && npm publish"
+    "patch": "npm version patch && git add . && git commit -m 'version patch'",
+    "minor": "npm version minor && git add . && git commit -m 'version minor'",
+    "major": "npm version major && git add . && git commit -m 'version major'"
   },
   "author": "akidoki",
   "license": "MIT",
-  "dependencies": {
-    "dotenv": "^16.4.5"
-  },
   "devDependencies": {
     "typescript": "^5.5.3"
   }
