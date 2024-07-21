@@ -1,0 +1,21 @@
+{
+  "name": "exif-image-js",
+  "version": "0.1.2",
+  "repository": "vercel/next.js",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepack": "yarn build",
+    "go": "npm run build && npm version patch && npm publish"
+  },
+  "author": "akidoki",
+  "license": "MIT"
+}

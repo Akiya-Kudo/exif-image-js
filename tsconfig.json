@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // or ES2020 出力する JavaScript のバージョン
+    "module": "Node16", // ESM サポートに必要
+    "moduleResolution": "Node16", // ESM サポートに必要
+    "declaration": true, // 型設定ファイルの出力
+    "outDir": "./dist", // TypeScript Compiler の出力先ディレクトリ
+    "removeComments": true,
+    "newLine": "lf",
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "preserveSymlinks": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "skipLibCheck": true,
+    "allowJs": true
+  },
+  "include": ["src"], // ビルド対象設定
+  // "exclude": ["src/**/*.test.ts"] // ビルド対象外設定
+}
