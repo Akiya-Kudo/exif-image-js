@@ -13,9 +13,9 @@
   },
   "scripts": {
     "build": "tsc",
-    "prepack": "yarn build",
+    "prepack": "npm run build",
     "test": "npm ls",
-    "go": "npm run build && npm version patch && npm publish"
+    "notusable-command": "npm run build && npm version patch && npm publish"
   },
   "author": "akidoki",
   "license": "MIT"
